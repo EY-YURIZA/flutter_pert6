@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Mahasiswa {
   Mahasiswa(this.nama, this.nim, this.prodi, this.nilai);
   final String nama;
@@ -25,8 +27,10 @@ class MahasiswaBaru {
   }
 }
 
+
+
 void main() {
-  // Menggunakan data nama dan NIM kamu sendiri
+  
   final m = Mahasiswa('Aditya Ramadhan Khiang', '1124160084', 'Software Engineering', '95');
   final b = MahasiswaBaru(nama: 'Aditya Ramadhan Khiang', nim: '1124160084', prodi: 'Software Engineering');
 
